@@ -14,7 +14,7 @@ public class MemberRepository {
     private static long sequence = 0L;
     private static final MemberRepository instance = new MemberRepository();
 
-    private static MemberRepository getInstance() {
+    public static MemberRepository getInstance() {
         return instance;
     }
 
