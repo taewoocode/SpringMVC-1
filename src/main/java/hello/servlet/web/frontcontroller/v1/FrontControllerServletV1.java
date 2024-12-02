@@ -43,8 +43,6 @@ public class FrontControllerServletV1 extends HttpServlet {
             response.setStatus(HttpServletResponse.SC_NOT_FOUND); //404 Not Found Page
             return;
         }
-
         controller.process(request, response);
-
     }
 }
